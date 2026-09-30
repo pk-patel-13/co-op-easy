@@ -50,9 +50,11 @@ export function createMap(element, { onPickLocation, onPickCompany }) {
   let meMarker = null;
   let lastMeKey = "";
   let fittedOnce = false;
+  let destroyed = false;     // set when the page is left; late callbacks must stop
 
   async function drawRadius(me) {
     await loaded;
+    if (destroyed) return;   // the page was left while the map was still loading
     const data = me ? circle(me.lat, me.lng, RADIUS_MILES) : { type: "FeatureCollection", features: [] };
     if (map.getSource("radius")) { map.getSource("radius").setData(data); return; }
     map.addSource("radius", { type: "geojson", data });
@@ -132,6 +134,7 @@ export function createMap(element, { onPickLocation, onPickCompany }) {
     resize() { map.resize(); },
 
     destroy() {
+      destroyed = true;
       if (map.isStyleLoaded()) map.remove();
       else { map.once("load", () => map.remove()); map.once("error", () => map.remove()); }
     },

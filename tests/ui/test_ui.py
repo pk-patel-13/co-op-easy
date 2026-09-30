@@ -186,6 +186,22 @@ def preview_tests(browser):
     page.context.close()
 
 
+def slow_map_test(browser):
+    # GitHub's machines load the map slowly; leaving the page before it finishes must not cause errors.
+    page = open_page(browser)
+    def slow(route):
+        page.wait_for_timeout(2000)
+        route.continue_()
+    page.route("https://tiles.openfreemap.org/styles/**", slow)
+    go(page, "#/find/services", ".company-card")
+    page.fill("#f-zip", "33130")
+    page.click("#f-zip-set")          # draws the 5-mile ring once the map is ready
+    go(page, "#/company/del-sol-roofing", ".profile")   # leave before the map loads
+    page.wait_for_timeout(4000)
+    check("slow map: leaving the page early causes no errors", not page.errors, page.errors[:3])
+    page.context.close()
+
+
 def clock_tests(browser):
     # Tuesday 29 Sept 2026, 10:00 in Miami (14:00 UTC)
     page = open_page(browser, clock=datetime(2026, 9, 29, 14, 0, tzinfo=timezone.utc))
@@ -465,7 +481,7 @@ with sync_playwright() as p:
     # BROWSER=edge (default, uses the installed Edge), chrome, or chromium (Playwright's own, used on GitHub)
     channel = {"edge": "msedge", "chrome": "chrome", "chromium": None}[os.environ.get("BROWSER", "edge")]
     browser = p.chromium.launch(channel=channel, headless=True)
-    for part in (preview_tests, clock_tests, phone_and_dark_tests, account_tests):
+    for part in (preview_tests, slow_map_test, clock_tests, phone_and_dark_tests, account_tests):
         try:
             part(browser)
         except Exception as e:  # a crash in one part shouldn't hide the others

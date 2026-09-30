@@ -23,4 +23,4 @@ jobs:
       - name: Database tests
         run: python tests/db/test_database.py
       - name: Browser tests
-        run: for i in 1 2 3; do BROWSER=chromium python tests/ui/test_ui.py || exit 1; done   # TEMP: repeat to catch a flaky test
+        run: BROWSER=chromium python tests/ui/test_ui.py
