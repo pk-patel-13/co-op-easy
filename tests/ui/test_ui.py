@@ -31,6 +31,8 @@ results = []
 def check(name, condition, detail=""):
     results.append((name, bool(condition)))
     print(("PASS " if condition else "FAIL ") + name + (f"  ({detail})" if detail and not condition else ""))
+    if not condition and os.environ.get("GITHUB_ACTIONS"):  # show failures on the GitHub run page
+        print(f"::error title=Test failed::{name} {str(detail)[:300]}")
 
 
 def pins_expected(kind):
