@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Co-op · Miami builders and suppliers</title>
+  <meta name="description" content="Find construction material suppliers and contractors near you in Miami, see who is open now, and send a request. Companies reply on Co-op.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+  <!-- Styles, in order: colors/fonts, page frame, shared pieces, map, each page -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="#/" aria-label="Co-op home"><span class="logo-mark">co</span><span>-op</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/find/services">Contractors</a>
+        <a href="#/find/materials">Materials</a>
+        <a href="#/#how">How it works</a>
+        <span id="nav-account"><a class="btn small" href="#/login">Sign in</a></span>
+      </nav>
+    </div>
+  </header>
+
+  <div id="demo-banner" class="banner" hidden>
+    Preview mode: browsing works, but sign-up and requests are off until the database is connected (see README).
+  </div>
+
+  <main id="view" class="wrap" tabindex="-1">
+    <p class="muted">Loading…</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div>
+        <a class="logo" href="#/"><span class="logo-mark">co</span><span>-op</span></a>
+        <p class="muted">Construction suppliers and contractors in Miami-Dade, Florida.</p>
+      </div>
+      <p class="muted small">
+        Company details, hours and images come from each company's official website.
+        Ratings and reply times come only from requests made on Co-op.
+        Map: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>, © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+      </p>
+    </div>
+  </footer>
+
+  <dialog id="dialog"></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

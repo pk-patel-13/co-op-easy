@@ -1,0 +1,87 @@
+/* ==========================================================================
+   PAGES: layout for each page. One section per page, in the same order as js/pages/.
+   ========================================================================== */
+
+/* ---------- home (js/pages/home.js) ---------- */
+.hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 28px; align-items: center; padding-block: 20px 36px; }
+.hero h1 { font-size: clamp(34px, 5.6vw, 58px); font-weight: 800; letter-spacing: -.02em; }
+.hero h1 em { font-style: normal; color: var(--brand); }
+.hero p { font-size: 18px; color: var(--muted); max-width: 52ch; margin-top: 14px; }
+.hero .row { margin-top: 22px; }
+.hero-art { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.hero-art .tile { aspect-ratio: 1; background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.hero-art .tile img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+.hero-art .tile.photo img { object-fit: cover; padding: 0; }
+.choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.choice { display: grid; gap: 8px; align-content: start; text-decoration: none; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 20px; padding: 22px; }
+.choice:hover { border-color: var(--brand); }
+.choice .emoji { font-size: 34px; }
+.how { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 36px; }
+.how ol { margin: 10px 0 14px; padding-left: 20px; display: grid; gap: 8px; }
+
+/* ---------- find (js/pages/find.js) ---------- */
+.filters { display: grid; gap: 12px; }
+.filter-line { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; align-items: center; }
+.filter-line .label { color: var(--muted); }
+.zip-input { width: 130px; }
+.results { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 520px); gap: 18px; margin-top: 12px; align-items: start; }
+.result-list { display: grid; gap: 12px; }
+.map-box { position: sticky; top: 80px; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.view-switch { display: none; }
+.company-card { display: grid; gap: 12px; }
+.company-card.closed { opacity: .75; }
+.company-card.active { border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
+.company-head { display: grid; grid-template-columns: 72px minmax(0, 1fr) auto; gap: 14px; align-items: start; }
+.company-head h3 { font-size: 20px; }
+.company-head h3 a { color: var(--ink); text-decoration: none; }
+.company-head h3 a:hover { color: var(--brand); text-decoration: underline; }
+.company-head .meta { display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; margin-top: 2px; }
+.site-link { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+.distance { text-align: right; font: 800 20px/1 var(--display); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.distance small { display: block; font: 500 12px var(--body); color: var(--muted); margin-top: 4px; }
+
+/* ---------- company (js/pages/company.js) ---------- */
+.profile { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+.profile-image { margin: 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); background: #fff; }
+.profile-image img { display: block; width: 100%; max-height: 340px; object-fit: cover; }
+.profile-image.is-logo img { object-fit: contain; max-height: 180px; padding: 24px; }
+.profile-image figcaption { font-size: 13px; color: var(--muted); padding: 8px 12px; background: var(--surface); border-top: 1px solid var(--line); }
+.profile h1 { font-size: 34px; margin-top: 4px; }
+.profile h1 a { color: inherit; }
+blockquote { margin: 0; padding-left: 14px; border-left: 4px solid var(--brand); font-size: 18px; }
+.branch-list { display: grid; gap: 10px; }
+.branch-item { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; background: var(--bg); display: grid; gap: 6px; }
+.branch-item h3 { font-size: 17px; }
+.review { border-top: 1px solid var(--line); padding-top: 10px; }
+
+/* ---------- sign up / sign in (js/pages/signup.js, login.js) ---------- */
+.auth { max-width: 520px; margin: 0 auto; }
+.role-pick { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.role-pick label { border: 2px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 4px; cursor: pointer; position: relative; }
+.role-pick input { position: absolute; opacity: 0; }
+.role-pick label:has(input:checked) { border-color: var(--brand); background: var(--brand-soft); }
+.role-pick label:has(input:focus-visible) { outline: 3px solid var(--blue); outline-offset: 2px; }
+.role-pick b { font-family: var(--display); font-size: 18px; }
+
+/* ---------- account (js/pages/account/) ---------- */
+.account { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 18px; align-items: start; }
+.request { border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: var(--bg); display: grid; gap: 8px; }
+.request h4 { font-size: 17px; }
+.reply { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 4px; }
+details > summary { cursor: pointer; font-weight: 700; }
+
+/* ---------- narrow screens ---------- */
+@media (max-width: 900px) {
+  .hero, .profile, .account, .results { grid-template-columns: minmax(0, 1fr); }
+  .view-switch { display: inline-flex; }
+  .results[data-view="list"] .map-box { display: none; }
+  .results[data-view="map"] .list-col { display: none; }
+  .map-box { position: static; }
+  .filter-line { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+}
+@media (max-width: 600px) {
+  .choices, .how, .role-pick { grid-template-columns: minmax(0, 1fr); }
+  .company-head { grid-template-columns: 60px minmax(0, 1fr); }
+  .distance { grid-column: 2; text-align: left; }
+  .hero-art { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+}

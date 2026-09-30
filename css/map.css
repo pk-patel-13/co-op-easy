@@ -1,0 +1,37 @@
+/* ==========================================================================
+   MAP: the colorful pins, "you are here" dot, popups and legend.
+   The map style itself (streets, water, parks) comes from OpenFreeMap; see js/components/map.js.
+   ========================================================================== */
+
+.map { width: 100%; height: min(72vh, 640px); background: var(--grey-soft); }
+.map-note { padding: 40px 20px; text-align: center; color: var(--muted); }
+
+/* company pin: colored drop with the list number */
+.pin { position: relative; width: 34px; height: 34px; border-radius: 50% 50% 50% 4px; transform: rotate(-45deg); display: grid; place-items: center;
+       border: 3px solid #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, .35); cursor: pointer; transition: transform .15s; }
+.pin span { transform: rotate(45deg); color: #fff; font: 800 13px/1 var(--body); }
+.pin:hover, .pin.active { transform: rotate(-45deg) scale(1.2); z-index: 5; }
+.pin.closed { transform: rotate(-45deg) scale(.85); opacity: .9; }   /* closed: same color, a bit smaller, no pulse */
+.pin.open::after { content: ""; position: absolute; inset: -7px; border-radius: inherit; border: 3px solid currentColor; opacity: 0; animation: pin-pulse 2.2s ease-out infinite; }
+@keyframes pin-pulse { 0% { opacity: .7; transform: scale(.8); } 100% { opacity: 0; transform: scale(1.5); } }
+
+/* you are here */
+.me-dot { width: 20px; height: 20px; border-radius: 50%; background: var(--blue); border: 3px solid #fff; box-shadow: 0 0 0 10px rgba(37, 99, 255, .22), 0 3px 8px rgba(0, 0, 0, .3); }
+
+/* popups */
+.maplibregl-popup-content { background: var(--surface); color: var(--ink); border-radius: 14px; padding: 12px 14px; box-shadow: 0 8px 24px rgba(0, 0, 0, .25); font-family: var(--body); min-width: 200px; }
+.maplibregl-popup-tip { border-top-color: var(--surface) !important; border-bottom-color: var(--surface) !important; }
+.maplibregl-popup-close-button { color: var(--muted); font-size: 18px; padding: 2px 8px; }
+.popup { display: grid; gap: 6px; }
+.popup b { font-family: var(--display); font-size: 16px; }
+.popup .branch { font-size: 13px; color: var(--muted); }
+
+/* legend under the map */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 12px; height: 12px; border-radius: 50% 50% 50% 2px; transform: rotate(-45deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  .pin.open::after { animation: none; }
+  .pin { transition: none; }
+}

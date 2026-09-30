@@ -1,0 +1,1575 @@
+[
+ {
+  "id": "3d-ready-mix",
+  "kind": "materials",
+  "name": "3D Ready Mix",
+  "category": "Ready-Mix & Block",
+  "description": "Reliable concrete solutions delivered on time, serving Miami-Dade, Broward and Palm Beach with high-quality ready mix and concrete pumping.",
+  "email": "info@3dreadymix.com",
+  "website": "https://3dreadymix.com/",
+  "contact": "Dispatch on the main line; info@ email for quotes",
+  "items": [
+   "Ready-mix concrete",
+   "Custom mixes",
+   "Fiber-reinforced concrete",
+   "High-strength concrete",
+   "Lightweight concrete",
+   "Concrete pumping"
+  ],
+  "extra": "Pours for foundations, slabs, driveways, pool decks, sidewalks and parking lots.",
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": "images/3d-ready-mix.webp",
+  "image_is_photo": false,
+  "image_source": "https://3dreadymix.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "7301 NW 47th Avenue, Miami, FL 33166",
+    "lat": 25.8385,
+    "lng": -80.2729,
+    "approx_location": true,
+    "phones": [
+     "305-591-8088"
+    ],
+    "hours_text": "Not listed on the website. Call to schedule a pour.",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "3d-ready-mix-1",
+    "page": "https://3dreadymix.com/"
+   }
+  ]
+ },
+ {
+  "id": "above-interior-distributors",
+  "kind": "materials",
+  "name": "Above Interior Distributors",
+  "category": "Drywall, Stucco & Interiors",
+  "description": "Construction material supplier serving Miami and South Florida, a GMS company alongside Gator Gypsum and Olympia.",
+  "email": null,
+  "website": "https://gatorgypsum.com/s/content/miami-fl",
+  "contact": "Yard sales desk (no named contacts on the website)",
+  "items": [
+   "Drywall",
+   "Acoustical ceilings",
+   "Insulation (fiberglass, rigid foam, mineral wool)",
+   "EIFS & stucco",
+   "Caulking & adhesives",
+   "Siding",
+   "Surface protection",
+   "Safety equipment"
+  ],
+  "extra": null,
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "955 NW 159th Drive, Suite 101, Miami, FL 33169",
+    "lat": 25.9235,
+    "lng": -80.21637,
+    "approx_location": false,
+    "phones": [
+     "305-623-5006",
+     "Fax 305-623-7827"
+    ],
+    "hours_text": "Mon–Fri 7:30 AM–5:00 PM",
+    "schedule": {
+     "1": [
+      7.5,
+      17
+     ],
+     "2": [
+      7.5,
+      17
+     ],
+     "3": [
+      7.5,
+      17
+     ],
+     "4": [
+      7.5,
+      17
+     ],
+     "5": [
+      7.5,
+      17
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "above-interior-distributors-1",
+    "page": "https://gatorgypsum.com/s/content/miami-fl"
+   }
+  ]
+ },
+ {
+  "id": "bond-supply",
+  "kind": "materials",
+  "name": "Bond Supply",
+  "category": "Plumbing & HVAC",
+  "description": "A plumbing, air conditioning and irrigation wholesaler, serving the trade for over 65 years.",
+  "email": null,
+  "website": "https://www.yellowpages.com/miami-fl/mip/bond-supply-8223830",
+  "contact": "Trade counter (no named contacts found)",
+  "items": [
+   "Plumbing pipe, valves & fittings",
+   "Fixtures",
+   "Air conditioning equipment",
+   "Irrigation supplies"
+  ],
+  "extra": "125,000 sq ft of warehouse and showroom. Most orders ship the same day. Details from business directories; no company website found.",
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "1250 NW 23rd Street, Miami, FL 33142",
+    "lat": 25.7986,
+    "lng": -80.21633,
+    "approx_location": false,
+    "phones": [
+     "305-634-0656"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–4:30 PM · Sat 8:00 AM–12:00 PM",
+    "schedule": {
+     "1": [
+      7,
+      16.5
+     ],
+     "2": [
+      7,
+      16.5
+     ],
+     "3": [
+      7,
+      16.5
+     ],
+     "4": [
+      7,
+      16.5
+     ],
+     "5": [
+      7,
+      16.5
+     ],
+     "6": [
+      8,
+      12
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "bond-supply-1",
+    "page": "https://www.yellowpages.com/miami-fl/mip/bond-supply-8223830"
+   }
+  ]
+ },
+ {
+  "id": "cemex",
+  "kind": "materials",
+  "name": "Cemex",
+  "category": "Ready-Mix & Block",
+  "description": "Ready-mix concrete and concrete block for commercial, residential and infrastructure projects across Miami-Dade, from three Miami plants.",
+  "email": null,
+  "website": "https://www.cemexusa.com/",
+  "contact": "Order through the plant line or online with Cemex Go",
+  "items": [
+   "Ready-mix concrete",
+   "Concrete block (many sizes)"
+  ],
+  "extra": null,
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": "images/cemex.webp",
+  "image_is_photo": false,
+  "image_source": "https://www.cemexusa.com/w/miami-sweetwater-readymix-concrete-plant",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "name": "Miami Sweetwater plant",
+    "address": "1200 NW 137th Avenue, Miami, FL 33182",
+    "lat": 25.7859,
+    "lng": -80.42029,
+    "approx_location": false,
+    "phones": [
+     "305-324-8100",
+     "Cemex Go support 1-855-252-3639"
+    ],
+    "hours_text": "Mon–Fri 6:00 AM–5:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      6,
+      17
+     ],
+     "2": [
+      6,
+      17
+     ],
+     "3": [
+      6,
+      17
+     ],
+     "4": [
+      6,
+      17
+     ],
+     "5": [
+      6,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": null,
+    "page": "https://www.cemexusa.com/w/miami-sweetwater-readymix-concrete-plant",
+    "id": "cemex-1"
+   },
+   {
+    "name": "Downtown Miami plant",
+    "address": "1600 North Miami Avenue, Miami, FL 33136",
+    "lat": 25.79058,
+    "lng": -80.19474,
+    "approx_location": false,
+    "phones": [
+     "305-324-8100",
+     "Cemex Go support 1-855-252-3639"
+    ],
+    "hours_text": "Mon–Fri 6:00 AM–5:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      6,
+      17
+     ],
+     "2": [
+      6,
+      17
+     ],
+     "3": [
+      6,
+      17
+     ],
+     "4": [
+      6,
+      17
+     ],
+     "5": [
+      6,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": null,
+    "page": "https://www.cemexusa.com/w/downtown-miami-readymix-concrete-plant",
+    "id": "cemex-2"
+   },
+   {
+    "name": "Mid-Town Miami plant",
+    "address": "1610 NW 21st Terrace, Miami, FL 33142",
+    "lat": 25.79655,
+    "lng": -80.22245,
+    "approx_location": false,
+    "phones": [
+     "305-324-8100"
+    ],
+    "hours_text": "Mon–Fri 6:00 AM–5:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      6,
+      17
+     ],
+     "2": [
+      6,
+      17
+     ],
+     "3": [
+      6,
+      17
+     ],
+     "4": [
+      6,
+      17
+     ],
+     "5": [
+      6,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": null,
+    "page": "https://www.cemexusa.com/w/midtown-miami-readymix-concrete-plant",
+    "id": "cemex-3"
+   }
+  ]
+ },
+ {
+  "id": "florida-lumber",
+  "kind": "materials",
+  "name": "Florida Lumber",
+  "category": "Lumber & Masonry",
+  "description": "A veteran lumber and building material supplier, offering Miami clients outstanding products and service delivery.",
+  "email": null,
+  "website": "https://floridalumber.com/miami-florida",
+  "contact": "Sales counter on the main line (no named reps on the website)",
+  "items": [
+   "Yellow pine & treated lumber",
+   "Tongue & groove",
+   "Sheathing & concrete-forming plywood",
+   "Rebar & accessories",
+   "Wire mesh",
+   "Concrete block",
+   "Cement bag goods",
+   "EPS foam",
+   "Simpson & MiTek connectors",
+   "Fasteners",
+   "Hand & power tools",
+   "Safety equipment"
+  ],
+  "extra": "Free local delivery on qualifying orders in Miami-Dade and Broward.",
+  "serves": null,
+  "license": null,
+  "founded": "1966",
+  "image_url": "images/florida-lumber.webp",
+  "image_is_photo": false,
+  "image_source": "https://floridalumber.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "2431 NW 20th Street, Miami, FL 33142",
+    "lat": 25.79446,
+    "lng": -80.23605,
+    "approx_location": false,
+    "phones": [
+     "305-635-6412"
+    ],
+    "hours_text": "Mon–Fri 6:30 AM–4:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      6.5,
+      16
+     ],
+     "2": [
+      6.5,
+      16
+     ],
+     "3": [
+      6.5,
+      16
+     ],
+     "4": [
+      6.5,
+      16
+     ],
+     "5": [
+      6.5,
+      16
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "florida-lumber-1",
+    "page": "https://floridalumber.com/miami-florida"
+   }
+  ]
+ },
+ {
+  "id": "guines-lumber-building-supply",
+  "kind": "materials",
+  "name": "Guines Lumber & Building Supply",
+  "category": "Lumber & Aggregates",
+  "description": "Your premier destination for wholesale distribution and retail store of top-quality building materials and supplies in Miami, Florida.",
+  "email": "guineslumber1400@gmail.com",
+  "website": "https://guineslumber.com/",
+  "contact": "Store counter (no named contacts on the website)",
+  "items": [
+   "Lumber",
+   "Building supplies",
+   "Hardware",
+   "Paint",
+   "Sand (several grades)",
+   "Gravel",
+   "Pea rock"
+  ],
+  "extra": "Sells both wholesale and retail, to contractors, builders and homeowners.",
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": "images/guines-lumber-building-supply.webp",
+  "image_is_photo": false,
+  "image_source": "https://guineslumber.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "1400 NW 29th Street, Miami, FL 33142",
+    "lat": 25.80319,
+    "lng": -80.21962,
+    "approx_location": false,
+    "phones": [
+     "305-633-7966"
+    ],
+    "hours_text": "Not listed on the website. Call ahead.",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "guines-lumber-building-supply-1",
+    "page": "https://guineslumber.com/"
+   }
+  ]
+ },
+ {
+  "id": "john-abell-corporation",
+  "kind": "materials",
+  "name": "John Abell Corporation",
+  "category": "Concrete Forming & Lumber",
+  "description": "Top Quality Products and Service Since 1974. Family-owned, supplying South Florida and the Caribbean with construction supplies for residential and commercial projects.",
+  "email": "vianca@johnabellcorp.com",
+  "website": "https://www.johnabellcorp.com/",
+  "contact": "Inquiries go to the email address published on the website; sales and customer service on the main line",
+  "items": [
+   "Lumber",
+   "Rebar",
+   "Concrete forming supplies & hardware",
+   "Waterproofing",
+   "Drywall",
+   "Insulation",
+   "Power tools",
+   "Stainless, aluminum, brass & silicon bronze fasteners"
+  ],
+  "extra": "Runs its own logistics and delivery for small to large projects.",
+  "serves": null,
+  "license": null,
+  "founded": "1974",
+  "image_url": "images/john-abell-corporation.webp",
+  "image_is_photo": false,
+  "image_source": "https://www.johnabellcorp.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "10500 SW 186th Street, Miami, FL 33157",
+    "lat": 25.5942,
+    "lng": -80.36243,
+    "approx_location": false,
+    "phones": [
+     "305-253-4440"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–5:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      7,
+      17
+     ],
+     "2": [
+      7,
+      17
+     ],
+     "3": [
+      7,
+      17
+     ],
+     "4": [
+      7,
+      17
+     ],
+     "5": [
+      7,
+      17
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "john-abell-corporation-1",
+    "page": "https://www.johnabellcorp.com/"
+   }
+  ]
+ },
+ {
+  "id": "nachon-lumber-hardware",
+  "kind": "materials",
+  "name": "Nachon Lumber & Hardware",
+  "category": "Lumber, Doors & Millwork",
+  "description": "A leading, family owned and operated business proudly serving its neighborhood and community as a building materials supplier in Hialeah, FL, since 1973.",
+  "email": null,
+  "website": "https://www.nachonlumberandhardware.com/",
+  "contact": "Separate desks: building materials, and doors & millwork",
+  "items": [
+   "Lumber",
+   "Drywall",
+   "Decking",
+   "Rebar",
+   "Custom exterior & interior doors",
+   "Shower doors",
+   "Moulding & millwork",
+   "Decorative stone",
+   "Plumbing & electrical hardware",
+   "Lighting",
+   "Paint & tools",
+   "Fasteners"
+  ],
+  "extra": null,
+  "serves": null,
+  "license": null,
+  "founded": "1973",
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "2477 W 4th Avenue, Hialeah, FL 33010",
+    "lat": 25.84766,
+    "lng": -80.29008,
+    "approx_location": false,
+    "phones": [
+     "305-888-5236 (building materials)",
+     "305-888-5460 (doors & millwork)",
+     "305-998-3297 (text)"
+    ],
+    "hours_text": "Mon–Fri 7:30 AM–4:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      7.5,
+      16
+     ],
+     "2": [
+      7.5,
+      16
+     ],
+     "3": [
+      7.5,
+      16
+     ],
+     "4": [
+      7.5,
+      16
+     ],
+     "5": [
+      7.5,
+      16
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "nachon-lumber-hardware-1",
+    "page": "https://www.nachonlumberandhardware.com/"
+   }
+  ]
+ },
+ {
+  "id": "olympia-building-supplies",
+  "kind": "materials",
+  "name": "Olympia Building Supplies",
+  "category": "Drywall, Stucco & Interiors",
+  "description": "Trusted construction material supplier serving Miami and South Florida. Part of the GMS family with Gator Gypsum.",
+  "email": null,
+  "website": "https://gatorgypsum.com/s/content/miami-fl",
+  "contact": "Yard sales desk (no named contacts on the website)",
+  "items": [
+   "Drywall (regular, Type X, moisture-resistant)",
+   "Acoustical ceilings",
+   "Insulation",
+   "EIFS & stucco",
+   "Cement & concrete",
+   "Lumber",
+   "Joint treatment",
+   "Firestop",
+   "Air & moisture barriers",
+   "FRP panels",
+   "Access doors",
+   "Fasteners"
+  ],
+  "extra": null,
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": "images/olympia-building-supplies.webp",
+  "image_is_photo": false,
+  "image_source": "https://gatorgypsum.com/s/content/miami-fl",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "3490 NW 71st Street, Miami, FL 33147",
+    "lat": 25.8382,
+    "lng": -80.25358,
+    "approx_location": false,
+    "phones": [
+     "786-866-0061",
+     "Fax 305-693-0139"
+    ],
+    "hours_text": "Mon–Thu 6:00 AM–4:30 PM · Fri 6:00 AM–4:00 PM",
+    "schedule": {
+     "1": [
+      6,
+      16.5
+     ],
+     "2": [
+      6,
+      16.5
+     ],
+     "3": [
+      6,
+      16.5
+     ],
+     "4": [
+      6,
+      16.5
+     ],
+     "5": [
+      6,
+      16
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "olympia-building-supplies-1",
+    "page": "https://gatorgypsum.com/s/content/miami-fl"
+   }
+  ]
+ },
+ {
+  "id": "rexel",
+  "kind": "materials",
+  "name": "Rexel",
+  "category": "Electrical",
+  "description": "Serves the needs of construction and industrial electricians as well as a wide variety of other contractor supply needs.",
+  "email": null,
+  "website": "https://www.rexelusa.com/",
+  "contact": "Branch counter; online ordering available",
+  "items": [
+   "Wire",
+   "Electrical distribution",
+   "Lighting",
+   "Control & automation",
+   "Datacomm",
+   "Solar",
+   "Tools"
+  ],
+  "extra": "Delivery, wire cutting and 24/7 emergency opening.",
+  "serves": null,
+  "license": null,
+  "founded": null,
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "name": "Miami #1597",
+    "address": "6767 NE 4th Avenue, Miami, FL 33138",
+    "lat": 25.83708,
+    "lng": -80.18909,
+    "approx_location": false,
+    "phones": [
+     "305-633-9565"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–5:00 PM · Sat–Sun closed · 24/7 emergency opening",
+    "schedule": {
+     "1": [
+      7,
+      17
+     ],
+     "2": [
+      7,
+      17
+     ],
+     "3": [
+      7,
+      17
+     ],
+     "4": [
+      7,
+      17
+     ],
+     "5": [
+      7,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": null,
+    "page": "https://www.rexelusa.com/locations/fl/miami/1597",
+    "id": "rexel-1"
+   },
+   {
+    "name": "Hollywood (Fort Lauderdale) #1102",
+    "address": "3625 SW 30th Avenue, Hollywood, FL 33312",
+    "lat": 26.07703,
+    "lng": -80.18111,
+    "approx_location": false,
+    "phones": [
+     "954-389-2253"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–5:00 PM · Sat–Sun closed",
+    "schedule": {
+     "1": [
+      7,
+      17
+     ],
+     "2": [
+      7,
+      17
+     ],
+     "3": [
+      7,
+      17
+     ],
+     "4": [
+      7,
+      17
+     ],
+     "5": [
+      7,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": null,
+    "page": "https://www.rexelusa.com/locations/fl/hollywood-fort-lauderdale/1102",
+    "id": "rexel-2"
+   }
+  ]
+ },
+ {
+  "id": "roof-depot-usa",
+  "kind": "materials",
+  "name": "Roof Depot USA",
+  "category": "Roofing",
+  "description": "Roof Depot USA has been the leading supplier of roofing materials in South Florida since 2006 by making our customers their number one priority.",
+  "email": null,
+  "website": "https://www.roofdepotusa.com/",
+  "contact": "Sales counter (no named contacts on the website)",
+  "items": [
+   "Roof tile",
+   "Discontinued tile",
+   "Metal roofing",
+   "GAF shingles",
+   "TPO membrane",
+   "Built-up roofing",
+   "Coatings & restoration",
+   "Foam adhesive (ICP, Tile Bond)",
+   "Solar attic fans",
+   "Roofing tools"
+  ],
+  "extra": "In-house cranes for hard roof-top deliveries.",
+  "serves": null,
+  "license": null,
+  "founded": "2006",
+  "image_url": "images/roof-depot-usa.webp",
+  "image_is_photo": true,
+  "image_source": "https://www.roofdepotusa.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "5400 NW 37th Avenue, Miami, FL 33142",
+    "lat": 25.8235,
+    "lng": -80.25709,
+    "approx_location": false,
+    "phones": [
+     "305-635-7663"
+    ],
+    "hours_text": "Mon–Fri 6:00 AM–4:00 PM · Sat 6:30 AM–12:00 PM",
+    "schedule": {
+     "1": [
+      6,
+      16
+     ],
+     "2": [
+      6,
+      16
+     ],
+     "3": [
+      6,
+      16
+     ],
+     "4": [
+      6,
+      16
+     ],
+     "5": [
+      6,
+      16
+     ],
+     "6": [
+      6.5,
+      12
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "roof-depot-usa-1",
+    "page": "https://www.roofdepotusa.com/"
+   }
+  ]
+ },
+ {
+  "id": "srs-building-products",
+  "kind": "materials",
+  "name": "SRS Building Products",
+  "category": "Roofing",
+  "description": "Contractors rely on SRS Building Products for superior building materials and roofing supplies, backed by world-class customer service.",
+  "email": null,
+  "website": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/",
+  "contact": "Each branch has its own manager (see branches)",
+  "items": [
+   "Asphalt shingles",
+   "Tile roofing",
+   "Metal roofing",
+   "Commercial roofing",
+   "Underlayment",
+   "Ventilation",
+   "Ridge & edge metal",
+   "Fasteners & sealants",
+   "Wood materials",
+   "Paint"
+  ],
+  "extra": null,
+  "serves": null,
+  "license": null,
+  "founded": "2008",
+  "image_url": "images/srs-building-products.webp",
+  "image_is_photo": false,
+  "image_source": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/srs-building-products---southeast-miami/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "name": "Miami (Medley)",
+    "address": "8205 NW 74th Ave, Medley, FL 33166",
+    "lat": 25.84907,
+    "lng": -80.3187,
+    "approx_location": false,
+    "phones": [
+     "305-455-6690",
+     "Fax 305-883-8665"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–4:30 PM",
+    "schedule": {
+     "1": [
+      7,
+      16.5
+     ],
+     "2": [
+      7,
+      16.5
+     ],
+     "3": [
+      7,
+      16.5
+     ],
+     "4": [
+      7,
+      16.5
+     ],
+     "5": [
+      7,
+      16.5
+     ]
+    },
+    "always_open": false,
+    "contact": "Abe Cordoba, Branch Manager (305-433-0469, acordoba@srsbuildingproducts.com)",
+    "page": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/srs-building-products---miami/",
+    "id": "srs-building-products-1"
+   },
+   {
+    "name": "Southeast Miami",
+    "address": "2445 NW 76th Street, Miami, FL 33147",
+    "lat": 25.84387,
+    "lng": -80.23903,
+    "approx_location": false,
+    "phones": [
+     "786-628-3100",
+     "Fax 786-628-3101"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–4:00 PM",
+    "schedule": {
+     "1": [
+      7,
+      16
+     ],
+     "2": [
+      7,
+      16
+     ],
+     "3": [
+      7,
+      16
+     ],
+     "4": [
+      7,
+      16
+     ],
+     "5": [
+      7,
+      16
+     ]
+    },
+    "always_open": false,
+    "contact": "Winder Perez, Branch Manager (561-690-2423, Winder.Perez@suncoastrooferssupply.com)",
+    "page": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/srs-building-products---southeast-miami/",
+    "id": "srs-building-products-2"
+   },
+   {
+    "name": "Fort Lauderdale",
+    "address": "6277 NW 28th Way, Fort Lauderdale, FL 33309",
+    "lat": 26.20459,
+    "lng": -80.18381,
+    "approx_location": false,
+    "phones": [
+     "954-933-4770"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–5:00 PM",
+    "schedule": {
+     "1": [
+      7,
+      17
+     ],
+     "2": [
+      7,
+      17
+     ],
+     "3": [
+      7,
+      17
+     ],
+     "4": [
+      7,
+      17
+     ],
+     "5": [
+      7,
+      17
+     ]
+    },
+    "always_open": false,
+    "contact": "Joseph Iammarino, Branch Manager (561-400-1274, Joseph.Iammarino@srsbuildingproducts.com)",
+    "page": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/srs-building-products---ft-lauderdale/",
+    "id": "srs-building-products-3"
+   }
+  ]
+ },
+ {
+  "id": "south-dade-electrical-supply",
+  "kind": "materials",
+  "name": "South Dade Electrical Supply",
+  "category": "Electrical",
+  "description": "Electrical supplies, lighting, wire and distribution equipment backed by experienced people, deep local inventory and dependable delivery.",
+  "email": null,
+  "website": "https://www.south-dade.com/",
+  "contact": "Counter sales (no named contacts on the website)",
+  "items": [
+   "Wire & cable",
+   "Panels & breakers",
+   "Disconnects & transformers",
+   "Commercial lighting & controls",
+   "Conduit & fittings",
+   "Devices",
+   "Project material"
+  ],
+  "extra": "Three warehouses covering Miami-Dade, Broward and Palm Beach.",
+  "serves": null,
+  "license": null,
+  "founded": "1966",
+  "image_url": "images/south-dade-electrical-supply.webp",
+  "image_is_photo": false,
+  "image_source": "https://www.south-dade.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "13100 SW 87th Avenue, Miami, FL 33176",
+    "lat": 25.64862,
+    "lng": -80.33438,
+    "approx_location": false,
+    "phones": [
+     "305-238-7131"
+    ],
+    "hours_text": "Mon–Fri 6:00 AM–5:00 PM",
+    "schedule": {
+     "1": [
+      6,
+      17
+     ],
+     "2": [
+      6,
+      17
+     ],
+     "3": [
+      6,
+      17
+     ],
+     "4": [
+      6,
+      17
+     ],
+     "5": [
+      6,
+      17
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "south-dade-electrical-supply-1",
+    "page": "https://www.south-dade.com/"
+   }
+  ]
+ },
+ {
+  "id": "abascal-group",
+  "kind": "services",
+  "name": "Abascal Group",
+  "category": "General Contractor",
+  "description": "A trusted general contractor based in Miami, FL specializing in residential and commercial construction.",
+  "email": null,
+  "website": "https://abascalgroup.com/",
+  "contact": "Alejandro Abascal and Ignacio Abascal, principals",
+  "items": [
+   "Custom homes",
+   "Renovations & additions",
+   "Kitchen & bath",
+   "Outdoor living & pools",
+   "Office & medical",
+   "Retail & tenant upfits",
+   "Restaurants",
+   "Industrial demolition"
+  ],
+  "extra": null,
+  "serves": "Homeowners and businesses (Coral Gables, Pinecrest, Coconut Grove, South Miami)",
+  "license": null,
+  "founded": "2004 (family roots in the 1980s)",
+  "image_url": "images/abascal-group.webp",
+  "image_is_photo": false,
+  "image_source": "https://abascalgroup.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "1255 Algardi Avenue, Miami, FL 33146",
+    "lat": 25.73342,
+    "lng": -80.27886,
+    "approx_location": false,
+    "phones": [
+     "305-283-9904"
+    ],
+    "hours_text": "Not listed on the website",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "abascal-group-1",
+    "page": "https://abascalgroup.com/"
+   }
+  ]
+ },
+ {
+  "id": "cf-construction-remodeling",
+  "kind": "services",
+  "name": "CF Construction & Remodeling",
+  "category": "General Contractor",
+  "description": "Licensed and insured general contractor for residential and commercial construction and remodelings, serving Miami-Dade and South Florida for over 30 years.",
+  "email": "generalcontractor@bellsouth.net",
+  "website": "https://www.cfconstructionandremodeling.com/",
+  "contact": "Claudio Fernandez, Owner",
+  "items": [
+   "Whole-home remodeling",
+   "Kitchen & bath",
+   "New construction",
+   "Plans & permit processing",
+   "Concrete work",
+   "Flooring",
+   "Roof repairs",
+   "Structural work",
+   "Project management"
+  ],
+  "extra": null,
+  "serves": "Homeowners and businesses",
+  "license": "CGC1507638",
+  "founded": null,
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "3532 SW 113th Court, Miami, FL 33165",
+    "lat": 25.73657,
+    "lng": -80.37867,
+    "approx_location": false,
+    "phones": [
+     "305-554-5599",
+     "786-251-5790"
+    ],
+    "hours_text": "Mon–Fri 9:00 AM–5:00 PM · Sat 9:00 AM–2:00 PM · Sun closed",
+    "schedule": {
+     "1": [
+      9,
+      17
+     ],
+     "2": [
+      9,
+      17
+     ],
+     "3": [
+      9,
+      17
+     ],
+     "4": [
+      9,
+      17
+     ],
+     "5": [
+      9,
+      17
+     ],
+     "6": [
+      9,
+      14
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "cf-construction-remodeling-1",
+    "page": "https://www.cfconstructionandremodeling.com/"
+   }
+  ]
+ },
+ {
+  "id": "cooperbuild",
+  "kind": "services",
+  "name": "CooperBuild",
+  "category": "General Contractor",
+  "description": "Architecturally driven residential and commercial construction across Miami and South Florida.",
+  "email": "info@cooperbuild.com",
+  "website": "https://cooperbuild.com/about/where-we-build/south-florida/miami/",
+  "contact": "New projects through info@ (no named contact on the Miami page)",
+  "items": [
+   "Preconstruction",
+   "General contracting",
+   "Construction management",
+   "Custom homes",
+   "Major renovations",
+   "Kitchen & bath",
+   "Painting & wallcovering",
+   "Glass showers"
+  ],
+  "extra": null,
+  "serves": "Homeowners, developers and architects",
+  "license": null,
+  "founded": null,
+  "image_url": "images/cooperbuild.webp",
+  "image_is_photo": true,
+  "image_source": "https://cooperbuild.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "4300 Biscayne Blvd, Suite 203, Miami, FL 33137",
+    "lat": 25.81578,
+    "lng": -80.18866,
+    "approx_location": false,
+    "phones": [
+     "631-213-1170"
+    ],
+    "hours_text": "Not listed on the website",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "cooperbuild-1",
+    "page": "https://cooperbuild.com/about/where-we-build/south-florida/miami/"
+   }
+  ]
+ },
+ {
+  "id": "del-sol-roofing",
+  "kind": "services",
+  "name": "Del Sol Roofing",
+  "category": "Roofing Contractor",
+  "description": "We are a residential and commercial roofing contractor in Miami, fully licensed & insured.",
+  "email": "dsr@delsolroofing.com",
+  "website": "https://delsolroofing.com/",
+  "contact": "Main office line (no named lead on the website)",
+  "items": [
+   "Roof repair",
+   "Re-roofing",
+   "Tile, metal & shingle roofs",
+   "Waterproofing",
+   "Inspections",
+   "Maintenance",
+   "Storm damage restoration"
+  ],
+  "extra": null,
+  "serves": "Homeowners and commercial owners, Miami-Dade & Broward",
+  "license": "CCC1328657",
+  "founded": "2001",
+  "image_url": "images/del-sol-roofing.webp",
+  "image_is_photo": true,
+  "image_source": "https://delsolroofing.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "7570 NW 14th Street #111, Miami, FL 33126",
+    "lat": 25.7862,
+    "lng": -80.31972,
+    "approx_location": false,
+    "phones": [
+     "305-228-0218"
+    ],
+    "hours_text": "Office hours not listed · 24/7 emergency roofing",
+    "schedule": null,
+    "always_open": true,
+    "name": "Main location",
+    "contact": null,
+    "id": "del-sol-roofing-1",
+    "page": "https://delsolroofing.com/"
+   }
+  ]
+ },
+ {
+  "id": "direct-builders",
+  "kind": "services",
+  "name": "Direct Builders",
+  "category": "General Contractor",
+  "description": "Commercial build-outs, custom homes, full remodels, and tenant improvements delivered with precision across Miami-Dade & Broward County.",
+  "email": null,
+  "website": "https://directbuilders.net/",
+  "contact": "Mike Amador, President/CEO (per company website)",
+  "items": [
+   "Commercial construction",
+   "Custom homes",
+   "Remodeling",
+   "Tenant improvements",
+   "Medical & healthcare build-outs"
+  ],
+  "extra": null,
+  "serves": "Homeowners, businesses and healthcare",
+  "license": null,
+  "founded": "2000",
+  "image_url": "images/direct-builders.webp",
+  "image_is_photo": true,
+  "image_source": "https://directbuilders.net/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "12974 SW 132nd Avenue, Miami, FL 33186",
+    "lat": 25.64652,
+    "lng": -80.40712,
+    "approx_location": false,
+    "phones": [
+     "305-232-2329"
+    ],
+    "hours_text": "Mon–Fri 9:00 AM–5:00 PM",
+    "schedule": {
+     "1": [
+      9,
+      17
+     ],
+     "2": [
+      9,
+      17
+     ],
+     "3": [
+      9,
+      17
+     ],
+     "4": [
+      9,
+      17
+     ],
+     "5": [
+      9,
+      17
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "direct-builders-1",
+    "page": "https://directbuilders.net/"
+   }
+  ]
+ },
+ {
+  "id": "east-of-collins",
+  "kind": "services",
+  "name": "East of Collins",
+  "category": "Permit Expediting",
+  "description": "Where Precision Meets Progress. Permit project managers across 80+ South Florida jurisdictions.",
+  "email": "info@eastofcollins.com",
+  "website": "https://eastofcollins.com/expediting/",
+  "contact": "Office line or info@ (no named lead on the website)",
+  "items": [
+   "Construction permit expediting",
+   "Certificates of occupancy",
+   "Trade permits",
+   "Violation resolution",
+   "Due-diligence reviews",
+   "Business licensing"
+  ],
+  "extra": null,
+  "serves": "Homeowners, developers, contractors and businesses",
+  "license": null,
+  "founded": null,
+  "image_url": "images/east-of-collins.webp",
+  "image_is_photo": false,
+  "image_source": "https://eastofcollins.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "252 Sunny Isles Blvd, Suite CU2, Sunny Isles Beach, FL 33160",
+    "lat": 25.92972,
+    "lng": -80.12482,
+    "approx_location": false,
+    "phones": [
+     "305-974-0209"
+    ],
+    "hours_text": "Not listed on the website",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "east-of-collins-1",
+    "page": "https://eastofcollins.com/expediting/"
+   }
+  ]
+ },
+ {
+  "id": "jobmix-concrete",
+  "kind": "services",
+  "name": "JobMix Concrete",
+  "category": "Concrete Services",
+  "description": "Your local concrete company in Miami, focused on flexibility and precision mixing.",
+  "email": null,
+  "website": "https://jobmix.com/",
+  "contact": "Dispatch on the main line (Spanish spoken)",
+  "items": [
+   "Residential & commercial pours",
+   "Concrete pumping",
+   "Volumetric (mixed on site) delivery",
+   "Custom mixes & additives"
+  ],
+  "extra": null,
+  "serves": "Contractors, developers and homeowners across South Florida and Monroe County",
+  "license": null,
+  "founded": "2017",
+  "image_url": null,
+  "image_is_photo": false,
+  "image_source": null,
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "4730 NW 128th Street, Opa-Locka, FL 33054",
+    "lat": 25.89235,
+    "lng": -80.27637,
+    "approx_location": false,
+    "phones": [
+     "786-233-4818"
+    ],
+    "hours_text": "24/7 concrete delivery",
+    "schedule": null,
+    "always_open": true,
+    "name": "Main location",
+    "contact": null,
+    "id": "jobmix-concrete-1",
+    "page": "https://jobmix.com/"
+   }
+  ]
+ },
+ {
+  "id": "miami-pro-construction",
+  "kind": "services",
+  "name": "Miami Pro Construction",
+  "category": "General Contractor",
+  "description": "Your trusted Miami general contractor and construction company, expertly delivering both home build services and commercial contractor services across Miami.",
+  "email": "info@miamiproconstruction.com",
+  "website": "https://miamiproconstruction.com/",
+  "contact": "Marco A. Amador Sr., Founder & CEO",
+  "items": [
+   "New home builds",
+   "Additions",
+   "Remodeling",
+   "Kitchen & bath",
+   "Impact windows & doors",
+   "Office renovation",
+   "Tenant build-outs",
+   "Design-build",
+   "Permitting"
+  ],
+  "extra": null,
+  "serves": "Homeowners and commercial owners",
+  "license": "CGC1529427",
+  "founded": null,
+  "image_url": "images/miami-pro-construction.webp",
+  "image_is_photo": false,
+  "image_source": "https://miamiproconstruction.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "12425 E Randall Park Drive, Miami, FL 33167",
+    "lat": 25.88762,
+    "lng": -80.22812,
+    "approx_location": false,
+    "phones": [
+     "305-850-5123"
+    ],
+    "hours_text": "Mon–Sat 8:00 AM–8:00 PM · Sun closed",
+    "schedule": {
+     "1": [
+      8,
+      20
+     ],
+     "2": [
+      8,
+      20
+     ],
+     "3": [
+      8,
+      20
+     ],
+     "4": [
+      8,
+      20
+     ],
+     "5": [
+      8,
+      20
+     ],
+     "6": [
+      8,
+      20
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "miami-pro-construction-1",
+    "page": "https://miamiproconstruction.com/"
+   }
+  ]
+ },
+ {
+  "id": "miami-roof-tech",
+  "kind": "services",
+  "name": "Miami Roof-Tech",
+  "category": "Roofing Contractor",
+  "description": "We at Roof-Tech have decades of experience in the Miami roofing industry… we deliver the highest quality workmanship each and every time.",
+  "email": "info@miamirooftech.com",
+  "website": "https://miamirooftech.com/about-us/",
+  "contact": "Office line or info@ (no named lead on the website)",
+  "items": [
+   "New roofs",
+   "Re-roofs",
+   "Repairs",
+   "Tile, shingle, flat, aluminum & metal systems"
+  ],
+  "extra": null,
+  "serves": "Homeowners and commercial owners, Miami-Dade & Broward",
+  "license": "CCC1328295",
+  "founded": "2003",
+  "image_url": "images/miami-roof-tech.webp",
+  "image_is_photo": false,
+  "image_source": "https://miamirooftech.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "2977 McFarlane Road #1, Miami, FL 33133",
+    "lat": 25.72793,
+    "lng": -80.24201,
+    "approx_location": false,
+    "phones": [
+     "305-722-7606"
+    ],
+    "hours_text": "Mon–Fri 7:00 AM–6:00 PM · Sun & holidays closed",
+    "schedule": {
+     "1": [
+      7,
+      18
+     ],
+     "2": [
+      7,
+      18
+     ],
+     "3": [
+      7,
+      18
+     ],
+     "4": [
+      7,
+      18
+     ],
+     "5": [
+      7,
+      18
+     ]
+    },
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "miami-roof-tech-1",
+    "page": "https://miamirooftech.com/about-us/"
+   }
+  ]
+ },
+ {
+  "id": "vc-construction",
+  "kind": "services",
+  "name": "VC Construction",
+  "category": "General Contractor",
+  "description": "Expertly managing custom builds, renovations, and commercial projects with integrity and precision.",
+  "email": null,
+  "website": "https://vestraculina.com/",
+  "contact": "Main phone line (no named lead on the website)",
+  "items": [
+   "Residential construction",
+   "Home additions",
+   "Full renovations",
+   "Commercial construction",
+   "Pool remodeling",
+   "Pavers",
+   "Kitchen & bath",
+   "Doors",
+   "Tile"
+  ],
+  "extra": null,
+  "serves": "Homeowners and businesses",
+  "license": "CGC1536713",
+  "founded": "18+ years in business",
+  "image_url": "images/vc-construction.webp",
+  "image_is_photo": false,
+  "image_source": "https://vestraculina.com/",
+  "checked_on": "2026-09-30",
+  "branches": [
+   {
+    "address": "Miami, FL (no street address listed)",
+    "lat": null,
+    "lng": null,
+    "approx_location": false,
+    "phones": [
+     "786-442-2384"
+    ],
+    "hours_text": "Not listed on the website",
+    "schedule": null,
+    "always_open": false,
+    "name": "Main location",
+    "contact": null,
+    "id": "vc-construction-1",
+    "page": "https://vestraculina.com/"
+   }
+  ]
+ }
+]

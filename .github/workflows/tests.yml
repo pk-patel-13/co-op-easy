@@ -1,0 +1,26 @@
+# Runs the database and browser tests on every push and pull request.
+# Work on the "dev" branch; merge into "main" (the live site) only when this is green.
+name: Tests
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test tools
+        run: |
+          pip install pgserver "psycopg[binary]" playwright
+          playwright install --with-deps chromium
+      - name: Database tests
+        run: python tests/db/test_database.py
+      - name: Browser tests
+        run: BROWSER=chromium python tests/ui/test_ui.py

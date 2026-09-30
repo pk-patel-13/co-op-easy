@@ -1,0 +1,4 @@
+# Keep the same (LF) line endings on every computer and on GitHub
+* text=auto eol=lf
+*.webp binary
+*.png binary

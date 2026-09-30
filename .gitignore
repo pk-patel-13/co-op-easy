@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Never commit secret keys
+.env
+*.local
+
+# test screenshots
+tests/ui/*.png

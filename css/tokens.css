@@ -1,0 +1,45 @@
+/* ==========================================================================
+   TOKENS: change the look of the whole site here.
+   Colors, fonts and roundness. Dark mode swaps the colors automatically.
+   ========================================================================== */
+
+:root {
+  /* surfaces and text */
+  --bg: #f5f6fb;
+  --surface: #ffffff;
+  --ink: #161a3a;
+  --muted: #5d6385;
+  --line: #e2e5f0;
+
+  /* brand and states */
+  --brand: #ff5a36;
+  --brand-soft: #ffe7e0;
+  --blue: #2563ff;
+  --blue-soft: #e3ebff;
+  --green: #0c9f62;
+  --green-soft: #dcf6e9;
+  --amber: #b86e00;
+  --amber-soft: #fff1d6;
+  --grey-soft: #eceef5;
+
+  /* one color per category, used on chips, pins and thumbnails */
+  --c1: #2563ff; --c2: #ff5a36; --c3: #0c9f62; --c4: #9b3dff;
+  --c5: #e08a00; --c6: #0095b3; --c7: #e0336f; --c8: #5b6b00;
+
+  /* type and shape */
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --radius: 16px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1124; --surface: #171b36; --ink: #eef0ff; --muted: #a0a7cc; --line: #2a2f56;
+    --brand: #ff7a59; --brand-soft: #3a1f1c; --blue: #7b9dff; --blue-soft: #1c2650;
+    --green: #3ad596; --green-soft: #133529; --amber: #ffbe4d; --amber-soft: #3a2c12; --grey-soft: #222744;
+    --c1: #7b9dff; --c2: #ff7a59; --c3: #3ad596; --c4: #c28bff;
+    --c5: #ffbe4d; --c6: #3fd0ec; --c7: #ff6f9f; --c8: #c5d44a;
+    color-scheme: dark;
+  }
+}
